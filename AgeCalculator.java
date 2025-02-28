@@ -9,7 +9,7 @@ public class AgeCalculator
 {
     // instance variables - replace the example below with your own
     private int x;
-
+    private int currentYear = 2025;
     /**
      * Constructor for objects of class AgeCalculator
      */
@@ -31,8 +31,12 @@ public class AgeCalculator
         return x + y;
     }
     //q.15
-    // if(age>16){
-        // print("eligible for license");
-        // else print ("not eligible for license")
-    // }
-}
+    public void canDrive(int year){
+    int age = this.currentYear - year;
+    if(age>=16)
+        System.out.println("eligible for license");
+    else 
+        System.out.println("not eligible for license");
+    }
+    }
+

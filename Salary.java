@@ -30,14 +30,13 @@ public class Salary
         // put your code here
         return x + y;
     }
-    //q.14
-    // public int totalSalary(){
-        // private int hourlyWage;
-        // private int hoursWorked;
-        // totalSalary = hourlyWage*hoursWorked;
-        // netSalary = totalSalary - 30%;
-        // print netSalary;
-        
-        
-    //}
-}
+    
+    public void totalSalary(double hourlyWage,double hoursWorked){
+        double deductions = 0.3;
+        double totalSalary = hourlyWage*hoursWorked;
+        double netSalary = totalSalary*deductions;
+        System.out.println(netSalary);
+    }
+}    
+    
+

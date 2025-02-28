@@ -20,4 +20,8 @@ public class Bird
     public void sing(){
         System.out.println("Bird_vocalization_in_action...");
     }
+    
+    public String getColor(){
+        return this.color;
+    }
 }

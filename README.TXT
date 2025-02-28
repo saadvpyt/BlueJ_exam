@@ -10,3 +10,6 @@ VERSION or DATE:
 HOW TO START THIS PROJECT:
 AUTHORS:
 USER INSTRUCTIONS:
+
+this activity was very helpful in my opinion because i got to review my mistakes and also compare my mistakes 
+which helped me understand and correct everything in a better manner 

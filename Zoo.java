@@ -17,16 +17,17 @@ public class Zoo
      */
     public Zoo()
     {
-        // initialise instance variables
+        zooBirds = new ArrayList<>();
+        zooBirds.add(new Bird("blue","BlueJay",2));
     }
     
     int countBlueBirds(){
-     // if(countBirds>0);
-       // countBlueBirds = countBlueBirds+1;
-    // else(countBirds<0);
-       // print("no blue Birds found");
-        return 0;
+        int count = 0;
+        for(Bird color : zooBirds){
+            if(color.getColor().equals("blue")){
+                count++;
+            }
+        }
+        return count;
     }
 }
-    
-   
